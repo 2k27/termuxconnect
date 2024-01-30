@@ -1,0 +1,116 @@
+html{
+  font-size: 62.5%;
+}
+@font-face {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  src: url(Poppins-Regular.ttf);
+}
+body{
+  color: #fff;
+  background-color: #212229;
+}
+header{
+  padding: 1.2rem 0;
+  max-width: 1440px;
+  margin: auto;
+  background-color: #053B50;
+    box-shadow: 1px 1px 1px #0006;
+}
+
+header a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 2.2rem;
+  letter-spacing: 2px;
+  text-align: center;
+  padding: 0 3px;
+}
+header i{
+  color: #fff;
+  font-size: 2rem;
+  padding-left: 2rem;
+}
+
+main{
+  max-width: 1440px;
+  margin-top: 2.6rem;
+  margin-bottom: 3rem;
+  padding: 1.8rem;
+  display: block;
+  background-color: #0002;
+  box-shadow: 1px 1px 1px #0006;
+}
+main h1{
+  display: block;
+  font-size: 2.6rem;
+  text-align: center;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+
+main span{
+  color: #717DFF;
+}
+
+ h2{
+   display: inline;
+  font-size: 2.2rem;
+  letter-spacing: 2px;
+  padding: 3px 6px;
+  font-weight: 400;
+  background-color: #053B50;
+  margin-left: 2rem;
+    box-shadow: 1px 1px 1px #0006;
+}
+section{
+  max-width: 1440px;
+  margin: auto;
+  margin-top: 3rem;
+}
+
+section .card{
+  width: 100%;
+  margin: 1.6rem auto;
+  padding: 11px;
+  background-color: #0002;
+  box-shadow: 1px 1px 1px #0006;
+}
+
+section .card a{
+  text-decoration: none;
+  letter-spacing: 1px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 2.2rem;
+    color: #717DFF;
+
+}
+section .card i {
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-size: 2.2rem;
+  padding: 0 7px;
+}
+
+.social-icon {
+  max-width: 1440px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between
+}
+  
+.icon a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 3.2rem;
+  padding-right: 2rem;
+}
+
+.icon a i{
+    text-shadow: 3px 3px 6px #000;
+}
