@@ -2,6 +2,10 @@ html{
   font-size: 62.5%;
   font-family: poppins;
 }
+p{
+  display: block;
+  text-align: center;
+}
 @font-face {
   font-family: poppins;
   font-weight: 400;
